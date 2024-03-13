@@ -2,11 +2,14 @@
 
 Possui 3 telas diferentes:
 
-A tela inicial exibe 3 opções de destino; 
+- A tela inicial exibe 3 opções de destino; 
 
-A segunda tela contem informações sobre os destinos;
+- A segunda tela contem informações sobre os destinos (nome, fotos, breve descrição, etc.);
 
-Na terceira tela é possível calcular o gasto de combustível;
+- Na terceira tela é possível calcular o gasto de combustível: Para obter o cálculo, o usuário deverá inserir o tempo (T) gasto e a velocidade média (V) durante a viagem. O usuário deverá também fornecer o rendimento médio (R) do automóvel em km por litro e o preço da gasolina. 
+Desta forma, será possível obter a distância percorrida com a fórmula D = T x V. Tendo o valor da distância, basta calcular a quantidade de litros (L) de combustível utilizada na viagem com a formula: L = D/R. 
+O resultado deverá apresentar os valores de: velocidade média, tempo gasto na viagem, rendimento, a distância percorrida, quantidade de litros de combustível utilizada na viagem e valor total gasto com combustível.
+
 
 <br><br>
 ## 🚀 Tecnologias
