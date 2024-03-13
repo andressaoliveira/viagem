@@ -11,9 +11,10 @@ const App = () => {
       <BrowserRouter>
         <Menu />
         <div className="display-prova">
-          <Route path="/" exact component={Inicio} />
-          <Route path="/Combustivel" component={Combustivel} />
-          <Route path="/Destinos" component={Destinos} />
+          {/* <Route path="/" exact component={Inicio} /> */}
+          <Route path="/viagem" exact component={Inicio} />
+          <Route path="/viagem/Combustivel" component={Combustivel} />
+          <Route path="/viagem/Destinos" component={Destinos} />
         </div>
       </BrowserRouter>
     </div>
