@@ -6,9 +6,9 @@ export default class Menu extends React.Component {
     render() {
         return (
             <div className="menu">
-                <Link to="/harry-potter">Página inicial</Link>
-                <Link to="/harry-potter/Destinos">Destinos</Link>
-                <Link to="/harry-potter/Combustivel">Combustível</Link>
+                <Link to="/viagem">Página inicial</Link>
+                <Link to="/viagem/Destinos">Destinos</Link>
+                <Link to="/viagem/Combustivel">Combustível</Link>
             </div>
         );
     }
