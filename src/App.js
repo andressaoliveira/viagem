@@ -1,23 +1,20 @@
 import './App.css';
 import { Route, BrowserRouter } from "react-router-dom";
-import Lista01 from './Lista01/Lista01';
-import Lista02 from './Lista02/Lista02';
-import Menu from './Base/Menu'
-import ProvaViagem from './ProvaViagem/ProvaViagem';
-import ProvaHarryPotter from './ProvaHarryPotter/ProvaHarryPotter';
-import ProvaFinal from './ProvaFinal/Principal';
+import Menu from './ProvaViagem/Menu/Menu'
+import Inicio from './ProvaViagem/Inicio/Inicio';
+import Combustivel from './ProvaViagem/Combustivel/Combustivel';
+import Destinos from './ProvaViagem/Destinos/Destinos';
 
 const App = () => {
   return (
     <div className="App">
       <BrowserRouter>
         <Menu />
-        <Route path="/" exact component={Lista01} />
-        <Route path="/Lista01" component={Lista01} />
-        <Route path="/Lista02" component={Lista02} />
-        <Route path="/ProvaViagem" component={ProvaViagem} />
-        <Route path="/ProvaHarryPotter" component={ProvaHarryPotter} />
-        <Route path="/ProvaFinal" component={ProvaFinal} />
+        <div className="display-prova">
+          <Route path="/" exact component={Inicio} />
+          <Route path="/Combustivel" component={Combustivel} />
+          <Route path="/Destinos" component={Destinos} />
+        </div>
       </BrowserRouter>
     </div>
   );
